@@ -69,8 +69,8 @@ namespace Solid.App.OCP
 
         //private Func<int, int, int> deger3 => (a, b) => a + b;
 
-
-        public decimal CalculateDelegate(decimal salary, Func<decimal, decimal> salaryCalculate)
+      
+        public decimal CalculateDelegate(decimal salary, Func<decimal, decimal> salaryCalculate) // (decimal) > decimal
         {
             return salaryCalculate(salary);
         }
