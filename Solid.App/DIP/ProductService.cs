@@ -13,8 +13,6 @@
         public List<Product> GetList()
         {
 
-            
-
             var productListWithKdv = _productRepository.GetList().Select(x => new Product()
             {
                 Name = x.Name,

@@ -16,18 +16,6 @@ productController.GetAll().ForEach(x =>
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 //Read Client
 
 IReadProductRepository productRepository = new ProductRepository();
