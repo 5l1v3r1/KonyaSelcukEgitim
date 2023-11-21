@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Index";
+
+    var name = "fatih";
+    var surName = "Çakıroğlu";
+
+    var fullName = $"{name} {surName}";
+
+    var names = new List<string>() { "ahmet", "mehmet", "hasan","ömer","ayşe" };
+
+}
+@* sytax engine   razor syntax  comment:CTRL+K+C      uncomment:CTRL+K+U *@
+<h1>Product Index</h1>
+<h1>Tarih : @DateTime.Now</h1>
+<h1>@fullName</h1>
+<h1>ahmet@@outlook.com</h1>
+@foreach (var item in names)
+{
+    <p>@item</p>
+}
+@if (name == "mehmet")
+{
+
+}
+else
+{
+    
+}
+
+
